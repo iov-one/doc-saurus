@@ -1,0 +1,16 @@
+{
+  "version-1.0.0-docs": {
+    "Weave Tutorial": [
+      "version-1.0.0-weave-tutorial1"
+    ],
+    "Best Practices": [
+      "version-1.0.0-weave-best-practices"
+    ]
+  },
+  "version-1.0.0-docs-other": {
+    "First Category": [
+      "version-1.0.0-doc4",
+      "version-1.0.0-doc5"
+    ]
+  }
+}
