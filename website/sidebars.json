@@ -1,6 +1,7 @@
 {
   "docs": {
-    "Weave Tutorial": ["weave-tutorial1"]
+    "Weave Tutorial": ["weave-tutorial1"],
+    "Best Practices": ["weave-best-practices"]
   },
   "docs-other": {
     "First Category": ["doc4", "doc5"]
