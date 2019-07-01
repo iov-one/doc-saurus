@@ -65,8 +65,7 @@ class HomeSplash extends React.Component {
           <ProjectTitle siteConfig={siteConfig} />
           <PromoSection>
             <Button href="#try">Try It Out</Button>
-            <Button href={docUrl('doc1.html')}>Example Link</Button>
-            <Button href={docUrl('doc2.html')}>Example Link 2</Button>
+            <Button href={docUrl('weave-tutorial1.html')}>Go to Weave Tutorial</Button>
           </PromoSection>
         </div>
       </SplashContainer>
@@ -92,14 +91,6 @@ class Index extends React.Component {
       </Container>
     );
 
-    const FeatureCallout = () => (
-      <div
-        className="productShowcaseSection paddingBottom"
-        style={{textAlign: 'center'}}>
-        <h2>Feature Callout</h2>
-        <MarkdownBlock>These are features of this project</MarkdownBlock>
-      </div>
-    );
 
     const TryOut = () => (
       <Block id="try">
@@ -145,25 +136,6 @@ class Index extends React.Component {
       </Block>
     );
 
-    const Features = () => (
-      <Block layout="fourColumn">
-        {[
-          {
-            content: 'This is the content of my feature',
-            image: `${baseUrl}img/undraw_react.svg`,
-            imageAlign: 'top',
-            title: 'Feature One',
-          },
-          {
-            content: 'The content of my second feature',
-            image: `${baseUrl}img/undraw_operating_system.svg`,
-            imageAlign: 'top',
-            title: 'Feature Two',
-          },
-        ]}
-      </Block>
-    );
-
     const Showcase = () => {
       if ((siteConfig.users || []).length === 0) {
         return null;
@@ -197,8 +169,6 @@ class Index extends React.Component {
       <div>
         <HomeSplash siteConfig={siteConfig} language={language} />
         <div className="mainContainer">
-          <Features />
-          <FeatureCallout />
           <LearnHow />
           <TryOut />
           <Description />
