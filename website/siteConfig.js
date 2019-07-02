@@ -35,7 +35,7 @@ const siteConfig = {
 
   algolia: {
     apiKey: process.env.ALGOLIA_API_KEY,
-    indexName: 'weave-tutorial',
+    indexName: 'doc-saurus',
     algoliaOptions: {} // Optional, if provided by Algolia
   },
   // For top-level user or org sites, the organization is still the same.
